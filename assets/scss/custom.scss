@@ -5,8 +5,8 @@
 /* Soft lavender palette for light mode. */
 :root {
     --body-background: #f6f1ff;
-    --card-background: #ffffff;
-    --card-background-selected: #eee5ff;
+    --card-background: rgba(255, 255, 255, 0.78);
+    --card-background-selected: rgba(238, 229, 255, 0.88);
 
     --accent-color: #7c3aed;
     --accent-color-darker: #5b21b6;
@@ -22,8 +22,8 @@
 /* Deep violet palette for dark mode. */
 :root[data-scheme="dark"] {
     --body-background: #17121f;
-    --card-background: #251c30;
-    --card-background-selected: #372746;
+    --card-background: rgba(37, 28, 48, 0.78);
+    --card-background-selected: rgba(55, 39, 70, 0.9);
 
     --accent-color: #c4a7ff;
     --accent-color-darker: #a78bfa;
@@ -34,4 +34,63 @@
     --card-text-color-secondary: #cbbfda;
     --card-text-color-tertiary: #a99ab8;
     --card-separator-color: rgba(196, 167, 255, 0.16);
+}
+
+/* Full-page wallpaper with a soft veil so text remains readable. */
+body {
+    background-color: var(--body-background);
+    background-image:
+        linear-gradient(rgba(246, 241, 255, 0.48), rgba(246, 241, 255, 0.48)),
+        url("/img/site-wallpaper.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+:root[data-scheme="dark"] body {
+    background-image:
+        linear-gradient(rgba(18, 12, 27, 0.58), rgba(18, 12, 27, 0.58)),
+        url("/img/site-wallpaper.png");
+}
+
+/* Frosted text surfaces keep the wallpaper visible without hurting contrast. */
+.article-list article,
+.main-article,
+.section-card,
+.widget {
+    border: 1px solid rgba(124, 58, 237, 0.14);
+    background-color: var(--card-background);
+    backdrop-filter: blur(14px) saturate(0.85);
+    -webkit-backdrop-filter: blur(14px) saturate(0.85);
+}
+
+:root[data-scheme="dark"] {
+    .article-list article,
+    .main-article,
+    .section-card,
+    .widget {
+        border-color: rgba(196, 167, 255, 0.16);
+    }
+}
+
+.widget {
+    padding: 18px;
+    border-radius: var(--card-border-radius);
+}
+
+.article-category a {
+    color: #ffffff;
+    background: rgba(124, 58, 237, 0.86);
+}
+
+.left-sidebar {
+    text-shadow: 0 1px 12px rgba(17, 10, 25, 0.5);
+}
+
+@media (max-width: 768px) {
+    body {
+        background-attachment: scroll;
+        background-position: 42% center;
+    }
 }
