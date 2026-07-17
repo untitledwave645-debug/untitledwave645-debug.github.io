@@ -1,18 +1,18 @@
 ---
-title: "游戏动漫电影"
-description: "看过、玩过之后的一些想法"
+title: "ACG 杂谈"
+description: "动画、漫画和游戏相关杂谈"
 date: 2026-07-17
-slug: "media"
+slug: "acg"
 menu:
     main:
-        weight: 2
+        weight: 3
         params:
             icon: messages
 comments: false
 ---
 
-这里会放一些我愿意公开的游戏、动漫和电影杂谈。
+这里会放一些我愿意公开的动画、漫画和游戏杂谈。
 
-## 游戏动漫电影
+## ACG 杂谈
 
 **状态：** 待添加

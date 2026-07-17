@@ -5,7 +5,7 @@ date: 2026-07-17
 slug: "about"
 menu:
     main:
-        weight: 5
+        weight: 7
         params:
             icon: user
 comments: false
@@ -17,9 +17,10 @@ comments: false
 
 我建立这个网站，用来记录：
 
-- 学习笔记
-- 游戏、动漫和电影杂谈
-- 随便写点东西
+- 学习随想
+- ACG 杂谈
+- 胡思乱想
 - 最近弄的小玩意
+- 资源推荐
 
 你也可以在 [GitHub](https://github.com/untitledwave645-debug) 上找到我。
