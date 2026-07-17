@@ -19,7 +19,7 @@ SortBy              = "default"
 
 [sidebar]
     emoji    = "🌊"
-    subtitle = "学习笔记、游戏动漫电影、随笔，以及最近弄的小玩意。"
+    subtitle = "欢迎来这溜达"
     avatar   = "img/avatar.jpg"
 
 [article]
