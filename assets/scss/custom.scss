@@ -1,3 +1,37 @@
 /*
     You can add your own custom styles here.
 */
+
+/* Soft lavender palette for light mode. */
+:root {
+    --body-background: #f6f1ff;
+    --card-background: #ffffff;
+    --card-background-selected: #eee5ff;
+
+    --accent-color: #7c3aed;
+    --accent-color-darker: #5b21b6;
+    --accent-color-text: #ffffff;
+
+    --body-text-color: #6d637a;
+    --card-text-color-main: #241a30;
+    --card-text-color-secondary: #746783;
+    --card-text-color-tertiary: #8e829b;
+    --card-separator-color: rgba(124, 58, 237, 0.12);
+}
+
+/* Deep violet palette for dark mode. */
+:root[data-scheme="dark"] {
+    --body-background: #17121f;
+    --card-background: #251c30;
+    --card-background-selected: #372746;
+
+    --accent-color: #c4a7ff;
+    --accent-color-darker: #a78bfa;
+    --accent-color-text: #21162d;
+
+    --body-text-color: #c2b6cf;
+    --card-text-color-main: #f7f1ff;
+    --card-text-color-secondary: #cbbfda;
+    --card-text-color-tertiary: #a99ab8;
+    --card-separator-color: rgba(196, 167, 255, 0.16);
+}
