@@ -1,0 +1,57 @@
+# Pages placed under these sections will be shown on homepage and archive page.
+mainSections = ["post"]
+# Output page's full content in RSS.
+rssFullContent = true
+favicon        = "img/favicon.png"
+
+# Accepted values: "default", "lastmod"
+# default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
+# lastmod = sort by last modified date, in descending order
+SortBy              = "default"
+
+[footer]
+    since      = 2026
+    customText = ""
+
+[dateFormat]
+    published   = "2006年01月02日"
+    lastUpdated = "2006年01月02日"
+
+[sidebar]
+    emoji    = "🌊"
+    subtitle = "应用物理学生，记录物理、AI for Science、学习计划与生活。"
+    avatar   = "img/avatar.jpg"
+
+[article]
+    headingAnchor = false
+    math          = true
+    readingTime   = true
+
+    [article.license]
+        enabled = true
+        default = "本文采用 CC BY-NC-SA 4.0 许可协议"
+
+[widgets]
+    homepage = [
+        { type = "search" },
+        { type = "archives", params = { limit = 5 } },
+        { type = "categories", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 10 } },
+    ]
+    page = [{ type = "toc" }]
+
+[opengraph.twitter]
+    site = ""
+    card = "summary_large_image"
+
+[colorScheme]
+    toggle  = true
+    default = "auto"
+
+## Comments
+[comments]
+    enabled  = false
+    provider = ""
+
+    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
+    # Copy the configurations you need from there and paste it here.
