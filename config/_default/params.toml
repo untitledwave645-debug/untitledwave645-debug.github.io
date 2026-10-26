@@ -50,8 +50,20 @@ SortBy              = "default"
 
 ## Comments
 [comments]
-    enabled  = false
-    provider = ""
+    enabled  = true
+    provider = "giscus"
 
-    # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
-    # Copy the configurations you need from there and paste it here.
+    [comments.giscus]
+        repo             = "untitledwave645-debug/untitledwave645-debug.github.io"
+        repoID           = "R_kgDOTbatWg"
+        category         = "General"
+        categoryID       = "DIC_kwDOTbatWs4DJqst"
+        mapping          = "pathname"
+        strict           = 0
+        reactionsEnabled = 1
+        emitMetadata     = 0
+        inputPosition    = "top"
+        lightTheme       = "light_protanopia"
+        darkTheme        = "dark_dimmed"
+        lang             = "zh-CN"
+        loading          = "lazy"
