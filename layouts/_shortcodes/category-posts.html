@@ -1,0 +1,12 @@
+{{- $category := .Get 0 -}}
+{{- $posts := where site.RegularPages "Section" "post" -}}
+{{- $posts = where $posts "Params.categories" "intersect" (slice $category) -}}
+{{ if $posts }}
+<ul>
+    {{ range $posts.ByDate.Reverse }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a> <small>（{{ .Date.Format "2006-01-02" }}）</small></li>
+    {{ end }}
+</ul>
+{{ else }}
+<p>还没有文章，之后会慢慢添加。</p>
+{{ end }}
