@@ -1,6 +1,6 @@
 ---
-title: "胡思乱想"
-description: "随便写点东西"
+title: "👀“
+description: "奇异的"
 date: 2026-07-17
 slug: "thoughts"
 menu:
