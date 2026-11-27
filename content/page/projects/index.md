@@ -1,6 +1,6 @@
 ---
-title: "toy：尝试"
-description: "最近做的小项目和有趣尝试"
+title: "toy"
+description: "存放的"
 date: 2026-07-17
 slug: "things"
 menu:
@@ -11,16 +11,3 @@ menu:
 comments: false
 ---
 
-这里会展示最近弄的一些小玩意。未公开或涉及隐私的内容不会放在网站上。
-
-## toy：尝试一
-
-**状态：** 待添加
-
-## toy：尝试二
-
-**状态：** 待添加
-
-## toy：尝试三
-
-**状态：** 待添加
