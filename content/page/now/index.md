@@ -1,6 +1,6 @@
 ---
 title: "🐱：记录"
-description: "动画、漫画和游戏相关杂谈"
+description: "猜猜看"
 date: 2026-07-17
 slug: "acg"
 menu:
@@ -11,7 +11,7 @@ menu:
 comments: false
 ---
 
-这里会放一些我愿意公开的动画、漫画和游戏杂谈。
+
 
 ## 🐱：记录
 
