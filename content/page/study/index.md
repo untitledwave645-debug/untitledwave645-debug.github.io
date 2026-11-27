@@ -1,5 +1,5 @@
 ---
-title: "学习随想"
+title: "📖：记录"
 description: "学习过程中的记录与想法"
 date: 2026-07-17
 slug: "study"
