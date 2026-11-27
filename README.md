@@ -1,1 +1,1 @@
-# untitledwave.gihub.io
+# untitledwave.github.io
