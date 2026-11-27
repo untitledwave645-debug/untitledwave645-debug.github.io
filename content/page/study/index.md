@@ -1,6 +1,6 @@
 ---
-title: "📖：记录"
-description: "学习过程中的记录与想法"
+title: "📖"
+description: "进度"
 date: 2026-07-17
 slug: "study"
 menu:
@@ -11,6 +11,5 @@ menu:
 comments: false
 ---
 
-这里会放学习过程中的记录、整理和随想。
 
-{{< category-posts "学习随想" >}}
+{{< category-posts "📖" >}}
