@@ -1,6 +1,6 @@
 ---
-title: "💰：分享"
-description: "值得收藏的网站、工具和内容"
+title: "💰"
+description: "收藏的"
 date: 2026-07-17
 slug: "resources"
 menu:
@@ -11,8 +11,7 @@ menu:
 comments: false
 ---
 
-这里会分享一些我愿意公开推荐的网站、工具和内容。
 
-## 💰：分享
+## 💰：
 
 **状态：** 待添加
