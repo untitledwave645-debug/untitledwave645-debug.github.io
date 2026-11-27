@@ -1,5 +1,5 @@
 ---
-title: "👀“
+title: "👀"
 description: "奇异的"
 date: 2026-07-17
 slug: "thoughts"
